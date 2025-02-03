@@ -1,6 +1,6 @@
 # kubernetisProject
 
-#check the connebatiner is running or no
+#check the container is running or no
 
 docker ps -a  --check for actively running conatiner
 
@@ -11,3 +11,4 @@ docker exec -it <conatiner-name /id>
 #To create customize our own image which is currently run on docker
 
 docker commit <conatiner-name> <customize-own-name>
+
